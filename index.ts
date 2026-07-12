@@ -25,7 +25,7 @@ bot.api.setMyCommands([
     },
 ]);
 
-// 1. Обработчик команды /start
+
 bot.command('start', async (ctx) => {
     console.log('--- ПОЛУЧЕНА КОМАНДА /start ---');
     
@@ -53,7 +53,7 @@ bot.command('help', async (ctx) => {
     return ctx.reply(helpText);
 });
 
-// Запуск бота
+
 bot.start();
 console.log('Бот успешно запущен и готов к работе!');
 
